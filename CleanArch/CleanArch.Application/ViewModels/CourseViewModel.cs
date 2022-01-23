@@ -9,5 +9,10 @@ namespace CleanArch.Application.ViewModels
     {
         public IEnumerable<Course> Courses { get; set; }
     }
+
+    public class SingleCourseViewModel
+    {
+        public Course Course { get; set; }
+    }
 }
 
